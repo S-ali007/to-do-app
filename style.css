@@ -62,12 +62,23 @@ display: block;
     cursor: pointer;
     font-family: 'ClimateCrisis', sans-serif;
     margin-top: 10px;
+    padding-right: 39px ;
+    user-select: none;
+    text-align: justify ;
 }
 
 #to-do-box li:hover{
     background-color: rgb(255, 127, 127);
     /* text-decoration: line-through;     */
 }
-i{
+#to-do-box li i{
     position: absolute;
+    right:10px ;
+    top: 10px ;
+}
+
+.done{
+    text-decoration: line-through;
+    color: black;
+    background-color: rgb(173, 14, 14) !important;
 }
